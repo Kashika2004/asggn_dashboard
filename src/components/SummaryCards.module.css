@@ -1,0 +1,25 @@
+/* SummaryCards.module.css */
+.cardContainer {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .card {
+    flex: 1;
+    padding: 1rem;
+    background: #B0C4DE;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .card p {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  

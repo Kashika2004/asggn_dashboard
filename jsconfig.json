@@ -1,0 +1,23 @@
+// {
+//   "compilerOptions": {
+//     "baseUrl": "src", // Set the base URL to "src"
+//     "paths": {
+//       "@components/": ["components/"], // Adjust paths accordingly
+//       "@styles/": ["styles/"],
+//       "@utils/": ["utils/"]
+//       // "@pages/": ["pages/"]
+//     }
+//   }
+// }
+
+
+{
+  "compilerOptions": {
+    "baseUrl": "src", // Base directory for resolving non-relative imports
+    "paths": {
+      "@components/": ["components/"], // Maps '@components' to 'src/components'
+      "@styles/": ["styles/"],
+      "@utils/": ["utils/"]
+    }
+  }
+}

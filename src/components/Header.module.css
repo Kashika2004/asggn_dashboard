@@ -1,0 +1,70 @@
+/* Header.module.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #0070f3;
+}
+.avatar {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.avatarContainer {
+  display: flex;
+  align-items: center;
+}
+
+.avatarImage {
+  border-radius: 50%;
+}
+
+/* Dropdown Menu */
+.dropdown {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  min-width: 120px;
+}
+
+.dropdownItem {
+  padding: 10px 15px;
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.dropdownItem:hover {
+  background-color: #f0f0f0;
+  color: #0070f3;
+}

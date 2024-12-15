@@ -1,0 +1,44 @@
+/* AssessmentTable.module.css */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .th,
+  .td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .th {
+    background-color:#B0C4DE;
+    cursor: pointer;
+  }
+  
+  .tr:hover {
+    background-color: #5F9EA0;
+  }
+
+  /* File: src/components/AssessmentTable.module.css */
+.searchBar {
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.searchBar:focus {
+  border-color: #0070f3;
+  outline: none;
+}
+
+.noData {
+  text-align: center;
+  padding: 1rem;
+  color:#666;
+}
+  
